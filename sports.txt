@@ -1,0 +1,61 @@
+class sports
+{
+   int sports_id;
+}
+
+class Cricket extends sports
+{ 
+    
+    
+}
+
+class Tennis extends sports
+{   
+   
+} 
+class Basketball extends sports
+{
+
+}
+
+
+class participants
+{ 
+    public int id; 
+    public String name; 
+    participants(int id, String name) 
+    { 
+        this.id = id;
+        this.name = name; 
+    } 
+} 
+  
+public class Details
+{ 
+    public static void main (String[] args) 
+    { 
+       
+
+        participants[] arr; 
+  
+     
+        arr = new participants[5]; 
+  
+  
+        arr[0] = new participants(1,"aman"); 
+	arr[1] = new participants(2,"vaibhav");
+        arr[2] = new participants(3,"shikar"); 
+        arr[3] = new participants(4,"dharmesh"); 
+        arr[4] = new participants(5,"mohit"); 
+  
+  
+        for (int i = 0; i < arr.length; i++) 
+            System.out.println("Element at " + i + " : " + 
+                        arr[i].id+" "+ arr[i].name); 
+    } 
+} 
+
+ 
+}
+
+} 
